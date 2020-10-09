@@ -1,0 +1,24 @@
+.blob {
+  position: absolute;
+  max-width: 70px;
+  z-index: -9999;
+}
+
+#first {
+  top: 1.5rem;
+  left: 35%;
+}
+
+#second {
+  top: 3rem;
+  right: 4rem;
+}
+
+#third {
+  left: 50%
+}
+
+#fourth {
+  bottom: 5rem;
+  left: 20%;
+}
