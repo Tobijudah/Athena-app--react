@@ -1,0 +1,23 @@
+#features {
+  padding: 7.5rem 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row .col {
+  flex: 0.33;
+}
+
+.row .col-2 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
