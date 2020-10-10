@@ -5,7 +5,7 @@ export default function Form() {
   return (
     <form>
       <input type="email" name="email" id="email" placeholder="Email" required/>
-      <a href="#" className="btn">Notify Me</a>
+      <button className="btn">Notify Me</button>
     </form>
   )
 }

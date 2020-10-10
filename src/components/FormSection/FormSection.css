@@ -1,0 +1,23 @@
+#form-section {
+  background-color: #fff;
+}
+
+#form-section .form-box {
+  padding: 4rem 0;
+}
+
+#form-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#form-section p {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#form-section form {
+  min-width: 50%;
+  max-width: 80%;
+  margin: 0 auto;
+}
