@@ -11,3 +11,16 @@
    display: flex;
    justify-content: space-between;
 }
+
+@media only screen and (max-width: 650px) {
+
+   #availability {
+      padding: 0;
+   }
+
+   #availability .row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+  
+}

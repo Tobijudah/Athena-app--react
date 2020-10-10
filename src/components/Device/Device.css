@@ -7,3 +7,11 @@
 .device {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 650px) {
+
+  #device {
+    margin-bottom: 5rem;
+ }
+  
+}

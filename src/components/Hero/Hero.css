@@ -4,28 +4,78 @@
   position: relative;
 }
 
-.text {
+#hero .text {
   flex: 0.55;
 }
 
-.text h1 {
+#hero .text h1 {
   margin-bottom: 1.75rem;
   width: 65%;
 }
 
-.text p {
+#hero .text p {
   margin-bottom: 3rem;
   width: 80%;
   font-weight: 600;
 }
 
-.image {
+#hero .image {
   flex: 0.45;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.image > img {
+#hero .image > img {
   width: 80%;
+}
+
+@media only screen and (max-width: 960px) {
+   
+  #hero .text h1 {
+     width: 100%;
+  }
+  
+  #hero .text p {
+     width: 90%;
+  }
+  
+}
+
+@media only screen and (max-width: 870px) {
+
+  #hero .text {
+     padding-top: 2rem;
+  }
+
+  #hero > .image > img {
+     padding-left: 1.5rem;
+     width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #hero {
+    flex-direction: column;
+  }
+
+ #hero .text {
+    padding: 3rem 0;
+  }
+
+ #hero .text h1 {
+    width: 100%;
+  }
+
+ #hero .text p {
+    width: 100%;
+  }
+ 
+ #hero > .image > img {
+    padding-left: 2.5rem;
+    width: 100%;
+  }
+  
 }

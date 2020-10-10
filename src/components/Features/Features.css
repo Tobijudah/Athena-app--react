@@ -6,18 +6,38 @@ h2 {
   text-align: center;
 }
 
-.row {
+#features .row {
   display: flex;
   align-items: center;
 }
 
-.row .col {
+#features .row .col {
   flex: 0.33;
 }
 
-.row .col-2 {
+#features .row .col-2 {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 870px) {
+
+  #features .row {
+    flex-direction: column;
+  }
+
+  #features .row .col-2 video{
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #features .row {
+    flex-direction: column;
+  }
+  
 }

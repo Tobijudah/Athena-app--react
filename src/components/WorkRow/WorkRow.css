@@ -1,4 +1,4 @@
-.icon {
+#work-row .icon {
   width: 100px;
   height: 100px;
   margin-bottom: 1rem;
@@ -38,4 +38,36 @@
 
 #work-row .text p {
   width: 75%;
+}
+
+@media only screen and (max-width: 870px) {
+
+  #work-row .text p {
+    width: 100%;
+ }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #work-row {
+    flex-direction: column;
+  }
+
+ #work-row .text {
+    margin-bottom: 3rem;
+  }
+
+ #work-row .text p {
+    width: 100%;
+  }
+
+ .alt .text {
+    order: 1;
+  }
+
+  .alt .image {
+    order: 2;
+  }
+  
 }

@@ -21,3 +21,15 @@
   max-width: 80%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 650px) {
+
+  #form-section form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
