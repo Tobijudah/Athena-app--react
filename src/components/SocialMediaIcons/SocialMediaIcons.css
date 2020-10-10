@@ -1,0 +1,33 @@
+.social {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 960px) {
+
+  #social-media-icons {
+    margin-bottom: 1rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .social {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #social-media-icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social {
+    margin-right: 0;
+  }
+  
+}
