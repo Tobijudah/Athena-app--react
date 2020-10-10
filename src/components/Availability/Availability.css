@@ -1,0 +1,13 @@
+#availability {
+  padding: 5rem 0;
+}
+
+#availability h2 {
+   text-align: center;
+   margin-bottom: 5rem;
+}
+
+#availability .row {
+   display: flex;
+   justify-content: space-between;
+}
