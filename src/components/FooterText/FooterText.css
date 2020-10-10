@@ -1,0 +1,15 @@
+@media only screen and (max-width: 960px) {
+
+  #footer-text {
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #footer-text {
+    margin-bottom: 1rem;
+ }
+  
+}
