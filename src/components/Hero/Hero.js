@@ -1,11 +1,13 @@
 import React from 'react'
 import Form from '../Form/Form'
 import Blob from '../Blob/Blob'
+
 import heroPhone from '../../images/Hero-phone.svg'
 import firstBlob from '../../images/Blob-1.svg'
 import secondBlob from '../../images/Blob-2.svg'
 import thirdBlob from '../../images/Blob-3.svg'
 import fourthBlob from '../../images/Blob-4.svg'
+
 import './Hero.css'
 
 export default function Hero() {
