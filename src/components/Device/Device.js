@@ -3,8 +3,6 @@ import './Device.css'
 
 export default function Device({ device }) {
 
-  console.log(device);
-
   const { img, text } = device
 
   return (

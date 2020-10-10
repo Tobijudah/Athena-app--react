@@ -27,15 +27,15 @@ export default function Features() {
   return (
     <div id="features">
       <h2>Athena Features</h2>
-      <div class="row">
+      <div className="row">
         
-        <div class="col col-1">
+        <div className="col">
           <FeatureTextGroup number={featureData[0].number} text={featureData[0].text} />
           <FeatureTextGroup number={featureData[1].number} text={featureData[1].text} />
         </div>
 
-        <div class="col col-2">
-          <video autoplay="true" loop>
+        <div className="col col-2">
+          <video autoPlay loop>
             <source 
               src={productVideo}
               type="video/mp4"
@@ -44,7 +44,7 @@ export default function Features() {
           </video>
         </div>
 
-        <div class="col-3 col">
+        <div className="col">
           <FeatureTextGroup number={featureData[2].number} text={featureData[2].text} />
           <FeatureTextGroup number={featureData[3].number} text={featureData[3].text} />
         </div>
