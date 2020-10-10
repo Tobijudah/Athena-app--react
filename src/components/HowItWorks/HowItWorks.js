@@ -1,6 +1,8 @@
 import React from 'react'
 import WorkRow from '../WorkRow/WorkRow'
 
+import './HowItWorks.css'
+
 import Icon1 from '../../images/How-icon-1.svg'
 import Icon2 from '../../images/How-icon-2.svg'
 import Icon3 from '../../images/How-icon-3.svg'
