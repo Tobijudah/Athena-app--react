@@ -6,6 +6,7 @@ import Features from './components/Features/Features';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import Availability from './components/Availability/Availability';
 import FormSection from './components/FormSection/FormSection';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
         <Availability/>
       </div>
       <FormSection/>
+      <Footer/>
     </div>
-
   );
 }
 
