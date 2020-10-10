@@ -1,0 +1,41 @@
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.alt .image {
+  order: 1;
+}
+
+.alt .text {
+  order: 2;
+}
+
+#work-row {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+#work-row .image {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work-row img {
+  width: 80%;
+}
+
+#work-row .text {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#work-row .text p {
+  width: 75%;
+}
